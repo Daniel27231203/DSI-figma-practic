@@ -1,0 +1,205 @@
+* {
+    margin:  auto;
+    padding: 0;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+}
+
+button {
+    border-radius: 4px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 144.687%; /* 28.937px */
+    transition: 1s;
+    border: no;
+}
+button:hover {
+    background: rgb(114, 114, 230);
+    color: #0c171b;
+}
+
+/* HEADER  */
+#header {
+    padding: 30px 0;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first_header {
+    display: flex;
+}
+.header_txt h2 {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 143.187%; /* 14.319px */
+    letter-spacing: 0.65px;
+}
+.header_txt {
+    margin: 0 5px;
+}
+.header_txt h1 {
+    color: #263238;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+.header_links a{
+    margin: 0 35px;
+    color: rgba(31, 46, 53, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+}
+.io {
+    margin: 0 10px;
+    width: 20px;
+    height: 18.586px;
+    flex-shrink: 0;
+}
+/* HEADER  */
+
+/* _____________________ */
+
+/* MAKING */
+#making{
+    padding: 100px 0;
+}
+.making {
+    display: flex;
+    align-items: center;
+}
+.making_txt h1{
+    color: #1F2E35;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 133.687%; /* 64.17px */
+}
+.making_txt h2 {
+    color: #EE4248;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 133.687%;
+}
+.making_txt p {
+    color: #30444E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 144.687%; /* 28.937px */
+    margin: 20px 0;
+}
+.making_txt button {
+    padding: 12px 30px;
+}
+/* MAKING */
+
+/* _____________________________ */
+
+/* indonesia */
+#indonesia {
+    padding: 30px 0;
+    background: #F6F6F6;
+}
+.indonesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indonesia_txt h1{
+    color: #1F2E35;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 133.687%; /* 42.78px */
+}
+.indonesia_txt p {
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin: 20px 0;
+}
+/* indonesia */
+
+/* product */
+#product {
+    padding: 30px 0;
+}
+.product h1 {
+    color: #1F2E35;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 133.687%; /* 42.78px */
+}
+.first_block {
+    text-align: start;
+    padding: 24px 10px 4px 24px;
+}
+.first_block h2{
+    color: #EE4248;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.first_block p {
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.first_block button {
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+/* product */
+
+/* DSI  */
+#dsi {
+    padding: 40px 0;
+}
+.dsim {
+    display: flex;
+}
+.param h1 { 
+    color: #263238;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.param p {
+    color: #263238;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+}
+
+/* DSI  */
+
+/* FOOTER  */
+#footer {
+    background: #EE4248;
+    padding: 20px 0;
+}
+.footer h1{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+/* FOOTER  */
